@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 14px;
+
+}
+body{
+    width: 100%;
+    min-height: 100%;
+    min-width: none;
+    background-color: hsla(168, 14%, 93%, 0.678);
+    justify-content: center;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.principal{
+    display: flex;
+    align-items: center;
+    
+    width: 60%;
+    height: 100%;
+
+
+}
+.direito{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    
+}
+.esquerdo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+    background-color: hsla(168, 14%, 93%, 0.678);
+    margin: 50px;
+
+    
+
+}
+
+.bloco1{
+    height: 100%;
+    width: 100%;
+    border-width: 1px;
+    border-color: black;
+    border-style: groove;
+    background-color: white;
+ 
+
+}
+.logo{
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+.cadastre{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: white;
+    
+    
+}
+.botao1{
+
+    background-color: rgb(83, 172, 231);
+    height: 25px;
+    width: 200px;
+    margin: 5px;
+    color:white;   
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    border radius: 10px;
+    
+}
+.botao2{
+
+    
+    height: 25px;
+    width: 200px;
+    margin: 5px;
+    color:rgb(37, 22, 245);   
+    text-align: center;
+    font-family:Arial;
+    
+    
+}
+    
+.photo{
+  
+    height: 200px;
+    width: 200px;
+    border-radius:60%;
+
+}
+
+.aplicativo{
+    display:flex; 
+    background-color: hsla(168, 14%, 93%, 0.678);
+    
+   
+}
+.app {
+    
+    height: 50px;
+    width: 200px;
+    margin:5px;
+}
+
+.group{
+
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    border-width: 1px;
+    border-color: black;
+    border-style: groove;
+    margin:30px; 
+    background-color: white;
+}
+.texto{
+
+    color: blue;
+}
+
+    
+   
+}
+
+
+
+   
+
+
